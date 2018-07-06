@@ -235,10 +235,10 @@ variable "enabled_metrics" {
 
 variable "dynamo_read_capacity" {
   description = "Sets the DynamoDB read capacity for storage backend"
-  default     = "5"
+  default     = 5
 }
 
 variable "dynamo_write_capacity" {
   description = "Sets the DynamoDB write capacity for storage backend"
-  default     = "5"
+  default     = 5
 }

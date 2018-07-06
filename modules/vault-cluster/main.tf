@@ -243,6 +243,7 @@ resource "aws_dynamodb_table" "vault_dynamo" {
   }
 
   tags {
+    Name        = "${var.cluster_name}"
     Description = "Used for HA storage with Vault."
   }
 }
